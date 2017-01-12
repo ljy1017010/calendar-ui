@@ -1,7 +1,7 @@
 calendar-css
 ===
 
-You can use the [baidu](https://www.baidu.com) to maintain and preview the content for your website in Markdown files.
+这是一个用css编写的日历界面，它很漂亮，我花了一些功夫来精心打磨它，如果你懂一点html和css的知识，你就能了解它的魅力.
 
 >Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
