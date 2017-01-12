@@ -1,0 +1,127 @@
+/*
+Date：2016年10月24日
+info：初始版本
+
+Date：2017年1月12日
+info: 调整UI,改变字体大小，加上渐变等
+
+*/
+
+.cal {
+    border-spacing: 0;
+    text-align: center;
+    font-family: '宋体';
+}
+.cal th, .cal td {
+    padding: 0;
+    width:38px;
+    height:30px;
+}
+
+/*caption*/
+.cal caption {
+    background-color: #d4dde6;
+    color: black;
+    font-size: 1em;
+    padding-top: 3px;
+    background-image: -webkit-linear-gradient(#A9BACB, #D4DDE6);
+    background-image: -o-linear-gradient(#A9BACB, #D4DDE6);
+    background-image: -moz-linear-gradient(#A9BACB, #D4DDE6);
+    background-image: linear-gradient(#A9BACB, #D4DDE6);
+}
+/*prev*/
+.cal caption [rel="prev"] {
+    padding: 10px 12px;
+    float: left;
+    font-weight: 700;
+}
+.cal caption span {
+    padding: 10px 0;
+    font-family: '宋体';
+    font-weight: bolder;
+    font-size: 16px;
+    letter-spacing: 1px;
+    /*垂直居中的关键*/
+    display: inline-block;
+}
+.cal caption [rel="next"] {
+    padding: 10px 12px;
+    float: right;
+    font-weight: 700;
+}
+
+.cal caption a:link,
+.cal caption a:visited {
+    text-decoration: none;
+    color: black;
+}
+.cal caption a:hover,
+.cal caption a:active {
+    color: #6D8AB7;
+}
+
+/*thead*/
+.cal thead {
+    background-color: #d4dde6;
+}
+.cal thead th{
+    border-bottom: solid 1px #a9bacb;
+    font-size: 13px;
+}
+
+/*	tbody	*/
+.cal tbody {
+    background-color: #d0d9e2;
+    color: #a4a4a4;
+}
+.cal tbody td{
+    border-top: solid 1px #e0e0e1;
+    border-right: solid 1px #9f9fa1;
+    border-bottom: solid 1px #acacad;
+    border-left: solid 1px #dfdfe0;
+}
+
+.cal tbody td a {
+    background-color: #c0c8d2;
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 3px 0;
+    line-height: 30px;
+    //border: solid 1px;
+}
+
+.cal tbody td a:hover,
+.cal tbody td a:active,
+.cal tbody td a:focus {
+    background-color: #6d8ab7;
+    color: white;
+    text-shadow: 1px 1px 2px #22456b;
+}
+
+/*selected*/
+.cal tbody .selected a {
+    background-color: #6d8ab7;
+    color: white;
+    text-shadow: 1px 1px 2px #22456b;
+}
+.cal tbody .selected {
+    border-top: solid 1px #2a3647;
+    border-right: solid 1px #465977;
+    border-bottom: solid 1px #576e92;
+    border-left: solid 1px #466080;
+}
+/*鼠标移动上去的cell边框效果*/
+.cal tbody td:hover	{
+    border-top: solid 1px #2a3647;
+    border-right: solid 1px #465977;
+    border-bottom: solid 1px #576e92;
+    border-left: solid 1px #466080;
+}
+/*null*/
+.cal tbody .null:hover {
+    border-top: solid 1px #e0e0e1;
+    border-right: solid 1px #9f9fa1;
+    border-bottom: solid 1px #acacad;
+    border-left: solid 1px #dfdfe0;
+}
