@@ -5,8 +5,8 @@ calendar-css
 
 >Whenever you commit to this repository, GitHub Pages will run [百度](https://www.baidu.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-1. class 1
-1. class 2
+2. class 1
+2. class 2
 
 
 
