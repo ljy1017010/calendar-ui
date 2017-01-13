@@ -7,7 +7,7 @@
 
 ##在线预览.
 
-点击链接可以在线预览：[calendar-ui](https://ljy1017010.github.io/calendar-ui/).
+点击链接在线预览：[calendar-ui](https://ljy1017010.github.io/calendar-ui/).
 
 
 
