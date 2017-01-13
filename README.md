@@ -5,9 +5,9 @@
 
 <img src="img/calendar-css.png">
 
-##在线地址.
+##在线预览.
 
-请点击链接进行在线查看：[calendar-css](https://ljy1017010.github.io/calendar-css/).
+请点击链接进行在线预览：[calendar-css](https://ljy1017010.github.io/calendar-css/).
 
 
 
