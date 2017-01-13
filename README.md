@@ -7,7 +7,7 @@
 
 ##在线地址.
 
-请点击该链接进行在线查看：[calendar-css](https://ljy1017010.github.io/calendar-css/).
+请点击链接进行在线查看：[calendar-css](https://ljy1017010.github.io/calendar-css/).
 
 
 
